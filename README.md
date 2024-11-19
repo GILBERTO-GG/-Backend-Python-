@@ -1,6 +1,3 @@
-# Backend-Python-Gilberto
-Curso de Backend Python
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
