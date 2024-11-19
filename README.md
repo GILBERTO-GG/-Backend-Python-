@@ -31,18 +31,11 @@ Este proyecto es una aplicación de Ecommerce rica en funcionalidades, construid
 - `MyEcommerceApp`: Utilidades generales del Ecommerce.
 - `api`: Endpoints REST API para integración.
 
-### ✅ Validación y Señales
-- Valida títulos de productos contra una lista de palabras bloqueadas.
-- Usa señales de Django (`pre_save`) para garantizar consistencia en los datos.
-
 ---
 
 ## 🛠️ Tecnologías y Dependencias
 - **Django 4.1.4:** Framework principal.
 - **Django REST Framework:** Desarrollo de APIs.
-- **Redis & Celery:** Tareas en cola y operaciones asíncronas.
-- **Gunicorn:** Servidor WSGI para producción.
-- **Whitenoise:** Sirve archivos estáticos en producción.
 - **SQLite:** Base de datos predeterminada, adaptable a PostgreSQL.
 - **Herramientas de Calidad de Código:** Flake8, Isort, Black.
 
@@ -81,14 +74,6 @@ Este proyecto es una aplicación de Ecommerce rica en funcionalidades, construid
     python manage.py runserver
     ```
 
----
-
-## 📂 Estructura del Proyecto
-
-Ecommerce/ ├── MyEcommerceApp/ # Funcionalidad principal de ecommerce ├── products/ # Gestión de productos ├── api/ # Endpoints API ├── templates/ # Plantillas HTML ├── static/ # Archivos estáticos (CSS, JS, Imágenes) ├── db.sqlite3 # Base de datos SQLite ├── manage.py # Utilidad de línea de comandos de Django ├── requirements.txt # Dependencias del proyecto
-
-yaml
-Copiar código
 
 ---
 
@@ -105,13 +90,5 @@ Este proyecto está licenciado bajo la licencia **MIT**. Consulta el archivo `LI
 
 ---
 
-## 🙌 Agradecimientos
-Agradecimientos especiales a la comunidad de Django y los autores de las dependencias utilizadas en este proyecto.
-
----
-
 © 2024 - Proyecto Ecommerce con Django
-Detalles:
-Utilicé emojis para dar un toque moderno y atractivo.
-Las secciones están claramente divididas con líneas horizontales (---).
-Respeté la estructura que mencionaste, pero presentándola de manera que sea más visualmente agradable y profesional en GitHub.
+
